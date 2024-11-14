@@ -1,0 +1,152 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .Home {
+    font-family: Arial, sans-serif;
+    background-image: url('https://s7d2.scene7.com/is/image/Caterpillar/CM20230912-a5cc9-0aa5d?$highres$');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #first{
+    text-align: justify;
+    padding-left: 30px;
+
+  }
+  #types{
+    display: flex;
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  h1 {
+    color: skyblue;
+    cursor: pointer;
+  }
+  
+  .profile {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+  
+  .profile a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .search-bar {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-bar input {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    text-align: center;
+  }
+  
+  .login-form {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    width: 140px;
+    height: 140px;
+    flex-direction: column;
+  }
+  
+  .login-form input {
+    width: 50%;
+    padding: 10px;
+    margin: 3px 0;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    text-align: center;
+  }
+  
+  .login-form button {
+    width: 70%;
+    padding: 10px;
+    background-color: skyblue;
+    border: none;
+    border-radius: 90px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: deepskyblue;
+  }
+  
+  main {
+    margin-top: 120px;
+    padding: 20px;
+    text-align: center;
+  }
+  select{
+    width: 200px;
+  }
+  
+  footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .car-images {
+    display: flex;
+    white-space: nowrap;
+  }
+  
+  .car-images img {
+    width: 100px;
+    margin: 0 10px;
+  }
+  
+  @keyframes zoom {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+  }
+  
+  @keyframes scroll-left {
+    0% { transform: translateX(100%); }
+    50% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+  }
